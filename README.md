@@ -1,26 +1,78 @@
 # my-resume
-Another LaTeX template for a resume/CV. This one was inspired by ![AltaCV](https://github.com/liantze/AltaCV) and various others but does exactly what I needed.
-It borrows a few lines of code from ![AltaCV](https://github.com/liantze/AltaCV) and ![AwesomeCV](https://github.com/posquit0/Awesome-CV).
 
-Note that my-resume runs on XeLaTeX.
+A LaTeX resume/CV template designed for customization and clarity. Inspired by AltaCV and AwesomeCV, this template runs on XeLaTeX and provides multiple page styles and layout options to suit different presentation needs.
 
-An Overleaf template can be found here: ![overleaf template](https://www.overleaf.com/latex/templates/my-resume/qxsxdtmknkfr)  
-(Note that this template may not be the most up-to-date version. Try the latest version from GitHub first if you encounter problems.)
+---
 
-# Example PDF
+## Features
 
-The three pages below show most possibilities that are implemented in my-resume. There are different pagestyles available, colors, header and much more can be optimized to match your taste.
+- Clean and professional resume template using LaTeX
+- Multiple page styles including header and highlight bar options
+- Supports single-sided and double-sided layouts
+- Customizable colors and headers
+- Ready-to-use Overleaf template available
 
-The default page style features a header and a highlight bar.
+## Tech Stack
 
-![Example PDF page 1](https://github.com/GiantMolecularCloud/my-resume/blob/main/resume-1.png "Example PDF page 1")
+- Primary language: TeX (LaTeX)
+- Build automation: Makefile
+- Python script for build automation and dependency management
 
-For consecutive pages, a layout with the highlight bar but without the header might be needed.
-Depending on the options for my-resume, the highlight bar can alternate between pages (option doublesided) or stay on the left side for all pages (option singlesided).
-In this case, the highlight bar is left empty and appears as a grey block.
+## Getting Started
 
-![Example PDF page 2](https://github.com/GiantMolecularCloud/my-resume/blob/main/resume-2.png "Example PDF page 2")
+### Prerequisites
 
-Empty pages are possible as well.
+- XeLaTeX installed
+- Python 3.x
+- Make utility
 
-![Example PDF page 3](https://github.com/GiantMolecularCloud/my-resume/blob/main/resume-3.png "Example PDF page 3")
+### Installation and Build
+
+```bash
+# Clone the repository
+git clone https://github.com/justin-napolitano/data-engineer-resume.git
+cd data-engineer-resume
+
+# Install dependencies (if any listed in requirements.txt)
+python3 python-build.py
+
+# Build the resume PDF
+make clean
+make html
+
+# The output PDF will be resume.pdf
+```
+
+Alternatively, use the Overleaf template for online editing:
+[Overleaf my-resume template](https://www.overleaf.com/latex/templates/my-resume/qxsxdtmknkfr)
+
+## Project Structure
+
+```
+├── deployz/                  # Deployment related scripts or files
+├── sections/                 # LaTeX sections for modular resume content
+├── head_shot.jpeg            # Profile image
+├── last_build.pdf            # Last generated PDF
+├── LICENSE                  # License file
+├── my-resume.cls             # Custom LaTeX class file
+├── python-build.py           # Python script automating build and dependency installation
+├── README.md                 # Project documentation
+├── resume.tex                # Main LaTeX source file
+├── resume.pdf                # Compiled resume PDF
+├── resume-1.png              # Example resume page 1
+├── resume-2.png              # Example resume page 2
+├── resume-3.png              # Example resume page 3
+└── technical.pdf             # Possibly a technical section or appendix
+```
+
+## Future Work / Roadmap
+
+- Improve documentation and add usage examples
+- Automate PDF generation fully with Python script
+- Add support for additional languages or export formats
+- Enhance modularity of LaTeX sections for easier customization
+- Integrate CI/CD for automatic build and deployment
+
+---
+
+This template is suitable for users familiar with LaTeX looking for a customizable resume format that can be built locally or on Overleaf.
