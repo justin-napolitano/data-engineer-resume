@@ -22,6 +22,12 @@ seoSecondaryKeywords:
   - python build script
   - modular resume
 seoOptimized: true
+topicFamily: latex
+topicFamilyConfidence: 0.95
+topicFamilyNotes: >-
+  The post focuses on a LaTeX resume template with build automation using XeLaTeX and a Python build
+  script. It aligns closely with the 'latex' family's description and example slugs, which include
+  other LaTeX resume projects and build automation.
 ---
 
 # Technical Overview of my-resume
@@ -60,3 +66,4 @@ The repository contains example images (`resume-1.png`, `resume-2.png`, `resume-
 This project delivers a pragmatic, maintainable LaTeX resume template with build automation. It is designed for users who want a balance between customization and simplicity, emphasizing modularity and clean presentation. The inclusion of example outputs and a build script facilitates adoption and adaptation for individual needs.
 
 When returning to this project, focus on the interplay between the LaTeX class file, modular section files, and the build automation script. Enhancements can target automation, documentation, and expanding customization options.
+
