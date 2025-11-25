@@ -1,13 +1,13 @@
 ---
 slug: github-data-engineer-resume
-title: Modular LaTeX Resume Template with Build Automation
+title: Customizable LaTeX Resume Template with Automation
 repo: justin-napolitano/data-engineer-resume
 githubUrl: https://github.com/justin-napolitano/data-engineer-resume
 generatedAt: '2025-11-23T08:50:12.068488Z'
 source: github-auto
 summary: >-
-  A LaTeX resume template using XeLaTeX with modular sections and a Python build script for
-  customizable, clean CV generation.
+  Explore a flexible LaTeX resume template that balances aesthetics and
+  customization, complete with build automation using Python and Makefile.
 tags:
   - latex
   - resume-template
@@ -15,19 +15,27 @@ tags:
   - build-automation
   - python-script
   - modularity
-seoPrimaryKeyword: latex resume template
-seoSecondaryKeywords:
-  - xelatex
+  - resume template
+  - python
   - build automation
+  - makefile
+seoPrimaryKeyword: customizable latex resume template
+seoSecondaryKeywords:
+  - latex resume automation
   - python build script
-  - modular resume
+  - modular resume design
+  - resume customization options
+  - XeLaTeX template
 seoOptimized: true
 topicFamily: latex
 topicFamilyConfidence: 0.95
 topicFamilyNotes: >-
-  The post focuses on a LaTeX resume template with build automation using XeLaTeX and a Python build
-  script. It aligns closely with the 'latex' family's description and example slugs, which include
-  other LaTeX resume projects and build automation.
+  The post focuses on a LaTeX resume template with build automation using
+  XeLaTeX and a Python build script. It aligns closely with the 'latex' family's
+  description and example slugs, which include other LaTeX resume projects and
+  build automation.
+kind: project
+id: github-data-engineer-resume
 ---
 
 # Technical Overview of my-resume
