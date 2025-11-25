@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/data-engineer-resume
 generatedAt: '2025-11-24T21:34:29.276Z'
 source: github-auto
 summary: >-
-  A LaTeX resume template for data engineers, featuring customization options
-  and build automation with Python and Makefile.
+  A LaTeX resume template designed for clarity and customization, featuring
+  multiple layouts and build automation.
 tags:
   - latex
   - resume template
@@ -17,13 +17,18 @@ tags:
   - Makefile
   - Overleaf
   - data engineering
+  - resume
+  - overleaf
+  - python
+  - makefile
+  - data-engineer
 seoPrimaryKeyword: latex resume template
 seoSecondaryKeywords:
-  - customizable CV
+  - customizable resume
+  - XeLaTeX resume
   - build automation
-  - data engineer resume
   - Overleaf template
-  - LaTeX project structure
+  - data engineer CV
 seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
